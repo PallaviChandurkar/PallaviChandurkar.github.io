@@ -3,7 +3,8 @@ import "./header.css";
 import img2 from "../../assets/img2.png";
 import {BsLinkedin} from 'react-icons/bs';
 import {BsGithub} from 'react-icons/bs';
-import Pallavi_Chandurkar from '../../assets/Pallavi_Chandurkar .pdf';
+// import Pallavi_Chandurkar from '../../assets/Pallavi_Chandurkar .pdf';
+import Pallavi_Chandurkar from '../../assets/Pallavi_Chandurkar.pdf';
 
 const Header = () => {
   return (
