@@ -2,7 +2,7 @@ import React from 'react';
 import './projects.css';
 import FOOD from '../../assets/Food Ordering App.png';
 import YOUTUBE from '../../assets/Youtube_Clone.png';
-import NETFLIX from '../../assets/NetFlix Clone.png';
+import NETFLIX from '../../assets/Netflix.png';
 
 const data = [
     {
@@ -22,7 +22,7 @@ const data = [
     {
         id: 3,
         image: NETFLIX,
-        title: 'NetflixGPT created using React',
+        title: 'Netflix Clone created using React',
         github: 'https://github.com/PallaviChandurkar/NetflixGPT',
         // demo: 'https://github.com'
     }
