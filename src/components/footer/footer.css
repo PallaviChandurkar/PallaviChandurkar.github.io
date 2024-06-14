@@ -41,15 +41,9 @@ footer a {
     border: 1px solid transparent;
 }
 
-/* .footer__socials a:hover {
-    background: transparent;
-    color: var(--color-primary);
-    border-color: var(--color-primary);
-} */
-
 .footer__copyright {
     margin-bottom: 4rem;
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
  /*------------------------------------------------MEDIA QUERIES (SMALL DEVICES)------------------------------------------------*/

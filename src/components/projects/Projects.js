@@ -8,23 +8,23 @@ const data = [
     {
         id: 1,
         image: FOOD,
-        title: 'Food Ordering App created using React',
-        github: 'https://github.com',
+        title: 'Developed a food ordering application using React and JavaScript.',
+        github: 'https://github.com/PallaviChandurkar/Food_Ordering_App',
         // demo: 'https://github.com'
     },
     {
         id: 2,
         image: YOUTUBE,
-        title: 'Youtube Clone developed using React',
+        title: 'Developed a scalable video streaming platform similar to YouTube.',
         github: 'https://github.com/PallaviChandurkar/Youtube_Clone',
-        // demo: 'https://github.com'
+        demo: 'https://youtube-clone-azure-two.vercel.app/'
     },
     {
         id: 3,
         image: NETFLIX,
-        title: 'Netflix Clone created using React',
+        title: 'Engineered a large scale production ready Netflix Clone from the ground up.',
         github: 'https://github.com/PallaviChandurkar/NetflixGPT',
-        // demo: 'https://github.com'
+        demo: 'https://netflix-clone-one-gray.vercel.app/'
     }
 ]
 
@@ -45,7 +45,7 @@ const Project = () => {
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
                                 <a href={github} target='_blank' rel="noreferrer" className="btn">Github</a>
-                                {/* <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a> */}
+                                <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
                                 </div>
                         </article>
                         )
